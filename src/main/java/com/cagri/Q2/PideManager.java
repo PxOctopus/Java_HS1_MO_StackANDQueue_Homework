@@ -15,7 +15,7 @@ public class PideManager {
 
     public String randomPideUretveDagit(Queue<Customer> customerQ) {
         Random random = new Random();
-        int randomIndex = random.nextInt(1, 12);
+        int randomIndex = random.nextInt(1, 13);
         String[] temp = new String[randomIndex];
 
         for (int i = 0; i < randomIndex; i++) {
