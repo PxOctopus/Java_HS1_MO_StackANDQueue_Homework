@@ -2,7 +2,8 @@ package com.cagri.Q3;
 
 import java.util.Comparator;
 
-public class MusteriComparator implements Comparator<Musteri> {
+public class MusteriComparator implements Comparator<Musteri>{
+    //V1 Benim yaptığım:
     @Override
     public int compare(Musteri o1, Musteri o2) {
         if (!o1.isMusteriMi() && !o2.isMusteriMi()) {
@@ -15,4 +16,6 @@ public class MusteriComparator implements Comparator<Musteri> {
         } else
             return 1;
     }
+
+
 }
